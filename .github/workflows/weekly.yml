@@ -18,7 +18,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install nflreadpy pandas xgboost
+        run: pip install nflreadpy pandas xgboost pyarrow
 
       - name: Run weekly update script
         run: python weekly_update.py
