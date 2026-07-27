@@ -136,5 +136,5 @@ output = {
     "te": top_te.to_dict(orient='records'),
 }
 
-with open('frontend\projections.json', 'w') as f:
+with open('frontend/projections.json', 'w') as f:
     json.dump(output, f, indent=2)
