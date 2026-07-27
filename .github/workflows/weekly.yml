@@ -1,0 +1,32 @@
+name: Weekly data + projection refresh
+
+on:
+  schedule:
+    - cron: '0 12 * * 2'   # 12:00 UTC every Tuesday
+  workflow_dispatch: {}     # lets you trigger it manually from the Actions tab
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install nflreadpy pandas xgboost json
+
+      - name: Run weekly update script
+        run: python weekly_update.py
+
+      - name: Commit updated projections
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add frontend/data/latest_projections.json
+          git diff --quiet --cached || git commit -m "Weekly refresh $(date -u +%F)"
+          git push
