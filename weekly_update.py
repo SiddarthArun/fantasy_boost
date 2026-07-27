@@ -3,7 +3,11 @@ import pandas as pd
 import json
 from xgboost import XGBRegressor
 
-df = nfl.load_player_stats(seasons=[2023,2024,2025,2026], summary_level='week').to_pandas()
+try:
+    df = nfl.load_player_stats(seasons=[2023,2024,2025,2026], summary_level='week').to_pandas()
+except:
+    df = nfl.load_player_stats(seasons=[2023,2024,2025], summary_level='week').to_pandas()
+    
 df = df.sort_values(['player_id', 'season', 'week']).reset_index(drop=True)
 df = df[df['season_type'] == 'REG']
 
