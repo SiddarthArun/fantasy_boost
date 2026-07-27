@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasy Boost</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        display: ['Oswald', 'system-ui', 'sans-serif'],
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                },
+            },
+        };
+    </script>
+    <style>
+        body {
+            background-color: #0a0a0a;
+            background-image:
+                radial-gradient(ellipse 80% 60% at 50% -20%, rgba(99, 102, 241, 0.10), transparent 60%),
+                linear-gradient(to right, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+            background-size: auto, 60px 60px, 60px 60px;
+            background-attachment: fixed;
+        }
+
+        /* Custom scrollbar inside grid */
+        .col-scroll::-webkit-scrollbar { width: 6px; }
+        .col-scroll::-webkit-scrollbar-track { background: transparent; }
+        .col-scroll::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.08); border-radius: 3px; }
+        .col-scroll::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.15); }
+
+        /* Scoreboard-style tabular numbers */
+        .tabular { font-variant-numeric: tabular-nums; }
+
+        /* Tab pill transitions */
+        .pos-tab {
+            transition: background-color 200ms ease, color 200ms ease, border-color 200ms ease, transform 150ms ease;
+        }
+        .pos-tab:hover { transform: translateY(-1px); }
+        .pos-tab.active { transform: translateY(-1px); }
+
+        /* Card fade-in animation */
+        @keyframes fade-up {
+            from { opacity: 0; transform: translateY(8px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+        .fade-up { animation: fade-up 300ms ease-out both; }
+
+        /* Subtle vignette */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            background: radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.55) 100%);
+            z-index: 0;
+        }
+    </style>
+</head>
+<body class="text-stone-100 min-h-screen p-4 sm:p-6 md:p-10 font-sans antialiased">
+    <div class="relative z-10 max-w-7xl mx-auto">
+        <!-- Header -->
+        <header class="mb-6 md:mb-8">
+            <div class="flex items-end justify-between gap-6 pb-5 border-b border-stone-800/80">
+                <div>
+                    <div class="flex items-center gap-3 mb-2">
+                        <span class="inline-block w-8 h-0.5 bg-emerald-500 rounded-full"></span>
+                        <p class="text-[10px] sm:text-xs uppercase tracking-[0.4em] text-emerald-400 font-semibold">XGBoost Powered Fantasy Preview</p>
+                    </div>
+                    <h1 class="font-display font-bold text-5xl sm:text-6xl md:text-7xl text-white leading-none tracking-tight">
+                        Fantasy <span class="text-emerald-400">BOOST</span>
+                    </h1>
+                </div>
+                <div class="hidden sm:block text-right flex-shrink-0">
+                    <p class="text-[10px] uppercase tracking-[0.3em] text-stone-500 font-semibold mb-1">Last Updated</p>
+                    <p id="updated-date" class="text-sm text-stone-300 font-medium tabular">&mdash;</p>
+                </div>
+            </div>
+
+            <!-- Position tabs -->
+            <nav id="position-tabs" class="mt-5 flex items-center gap-2 sm:gap-3 flex-wrap" role="tablist" aria-label="Position">
+                <!-- Tabs injected here -->
+            </nav>
+
+            <!-- Field-hash row ornament -->
+            <div class="flex items-center gap-2 mt-4 text-stone-700 select-none" aria-hidden="true">
+                <div class="flex-1 h-px bg-gradient-to-r from-transparent via-stone-800 to-stone-800"></div>
+                <span class="font-display text-[10px] tracking-[0.5em] uppercase">10 &middot; 20 &middot; 30 &middot; 40 &middot; 50 &middot; 40 &middot; 30 &middot; 20 &middot; 10</span>
+                <div class="flex-1 h-px bg-gradient-to-l from-transparent via-stone-800 to-stone-800"></div>
+            </div>
+        </header>
+
+        <!-- Position title + count -->
+        <div class="flex items-end justify-between gap-4 mb-5">
+            <div class="flex items-center gap-3">
+                <span id="pos-badge" class="inline-flex items-center justify-center font-display font-bold text-sm tracking-wider px-2.5 py-1 rounded-md uppercase"></span>
+                <h2 id="pos-title" class="font-display font-semibold text-3xl sm:text-4xl text-white tracking-wide uppercase"></h2>
+            </div>
+            <span id="pos-count" class="text-[10px] uppercase tracking-[0.3em] text-stone-500 font-semibold whitespace-nowrap"></span>
+        </div>
+
+        <!-- Grid -->
+        <div id="content" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
+            <!-- Cards injected here -->
+        </div>
+
+        <footer class="mt-10 pt-5 border-t border-stone-800/80 text-center text-[11px] uppercase tracking-[0.3em] text-stone-600 font-semibold">
+            Built for the win
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
