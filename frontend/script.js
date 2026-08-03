@@ -114,18 +114,18 @@ function renderAppleCard(player, index, theme) {
     const animationDelay = Math.min(index, 15) * 35;
 
     return `
-        <article class="animate-fade-in apple-glass rounded-3xl p-4 sm:p-6 relative overflow-hidden flex flex-col justify-between group"
+        <article class="animate-fade-in apple-glass rounded-3xl p-5 sm:p-6 relative overflow-hidden flex flex-col justify-between group"
                  style="animation-delay: ${animationDelay}ms;">
             
             <!-- Top row: Rank & Points -->
             <div class="flex items-center justify-between mb-4 sm:mb-5">
-                <span class="font-bold text-base sm:text-lg tabular px-2.5 sm:px-3 py-1 rounded-xl bg-white/5 border border-white/10"
+                <span class="font-bold text-sm sm:text-lg tabular px-2.5 sm:px-3 py-1 rounded-xl bg-white/5 border border-white/10"
                       style="color: ${theme.accent};">
                     #${String(rank).padStart(2, '0')}
                 </span>
 
                 <div class="text-right">
-                    <div class="font-bold text-2xl sm:text-4xl text-white tracking-tight tabular leading-none"
+                    <div class="font-bold text-3xl sm:text-4xl text-white tracking-tight tabular leading-none"
                          style="text-shadow: 0 0 25px ${theme.accentGlow};">
                         ${player.projection.toFixed(1)}
                     </div>
@@ -135,25 +135,25 @@ function renderAppleCard(player, index, theme) {
                 </div>
             </div>
 
-            <!-- Middle: Headshot & Details -->
-            <div class="flex items-center gap-4 sm:gap-5">
+            <!-- Middle: Responsive Layout (Centered on mobile, horizontal on sm+) -->
+            <div class="flex flex-col sm:flex-row items-center gap-4 sm:gap-5 text-center sm:text-left">
                 <div class="relative flex-shrink-0">
                     <div class="absolute -inset-2 rounded-3xl opacity-30 group-hover:opacity-70 blur-xl transition-opacity duration-300"
                          style="background: ${theme.accent};"></div>
                     <img src="${player.headshot_url}"
                          alt="${name}"
                          loading="lazy"
-                         class="relative w-16 h-16 sm:w-24 sm:h-24 rounded-2xl object-cover bg-neutral-900 border border-white/10 shadow-lg group-hover:scale-105 transition-transform duration-300"
+                         class="relative w-20 h-20 sm:w-24 sm:h-24 rounded-2xl object-cover bg-neutral-900 border border-white/10 shadow-lg group-hover:scale-105 transition-transform duration-300 mx-auto"
                          style="-webkit-backface-visibility: hidden; transform: translateZ(0); image-rendering: -webkit-optimize-contrast;"
                          onerror="this.replaceWith(makeAppleFallback('${initials}', '${theme.accent}'))">
                 </div>
 
-                <div class="flex-grow min-w-0">
-                    <h3 class="font-bold text-white text-base sm:text-xl truncate tracking-tight mb-1.5 sm:mb-2 group-hover:text-green-400 transition-colors">
+                <div class="flex-grow min-w-0 w-full sm:w-auto">
+                    <h3 class="font-bold text-white text-lg sm:text-xl truncate tracking-tight mb-2 group-hover:text-green-400 transition-colors">
                         ${name}
                     </h3>
-                    <div class="inline-flex items-center gap-2 px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-xl bg-white/5 border border-white/10">
-                        <span class="text-[9px] sm:text-[10px] uppercase tracking-wider text-[#86868b] font-medium">vs</span>
+                    <div class="inline-flex items-center justify-center gap-2 px-3 py-1.5 rounded-xl bg-white/5 border border-white/10">
+                        <span class="text-[10px] uppercase tracking-wider text-[#86868b] font-medium">vs</span>
                         <span class="text-xs font-semibold text-white uppercase tracking-wider tabular">
                             ${player.next_opponent}
                         </span>
@@ -185,7 +185,7 @@ function getInitials(raw) {
 
 window.makeAppleFallback = function(initials, color) {
     const div = document.createElement('div');
-    div.className = 'relative w-16 h-16 sm:w-24 sm:h-24 rounded-2xl bg-neutral-900 border border-white/10 flex items-center justify-center font-bold text-xl sm:text-2xl text-neutral-300 shadow-lg';
+    div.className = 'relative w-20 h-20 sm:w-24 sm:h-24 rounded-2xl bg-neutral-900 border border-white/10 flex items-center justify-center font-bold text-2xl text-neutral-300 shadow-lg mx-auto';
     div.style.color = color;
     div.textContent = initials;
     return div;
