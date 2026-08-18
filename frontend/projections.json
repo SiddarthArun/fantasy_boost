@@ -1,395 +1,395 @@
 {
-  "generated_at": "2026-08-11T12:56:22.614502+00:00",
+  "generated_at": "2026-08-18T12:38:24.377228+00:00",
   "wr": [
     {
       "player_name": "P.Nacua",
-      "projection": 24.4840030670166,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zvi4hdm6fywcekfe7ceb",
+      "projection": 24.448413848876953,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ipy6qw7hdygdfc8k86ba",
       "next_opponent": "SF"
     },
     {
       "player_name": "J.Chase",
-      "projection": 20.913166046142578,
+      "projection": 20.35702896118164,
       "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qya3dtjb5kgofcuj2tuw",
       "next_opponent": "TB"
     },
     {
+      "player_name": "A.Brown",
+      "projection": 17.020383834838867,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qfhvjyssf0lwsh0kienp",
+      "next_opponent": "WAS"
+    },
+    {
+      "player_name": "M.Wilson",
+      "projection": 16.87617301940918,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hm2b9z4zujjmbiyldh8n",
+      "next_opponent": "LAC"
+    },
+    {
+      "player_name": "C.Olave",
+      "projection": 16.486581802368164,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/onmxufsprtvglhejg94o",
+      "next_opponent": "DET"
+    },
+    {
+      "player_name": "R.Rice",
+      "projection": 16.461772918701172,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qhkbqrydjeur8zvrrmfl",
+      "next_opponent": "DEN"
+    },
+    {
       "player_name": "A.St. Brown",
-      "projection": 17.454618453979492,
+      "projection": 15.869601249694824,
       "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fd8nwhm6pvxfyzphzl6i",
       "next_opponent": "NO"
     },
     {
-      "player_name": "C.Olave",
-      "projection": 17.00599479675293,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vrrmyvpvujynckag9jop",
-      "next_opponent": "DET"
+      "player_name": "D.London",
+      "projection": 15.719571113586426,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mcllowcfrmmdeo4zy3g1",
+      "next_opponent": "PIT"
+    },
+    {
+      "player_name": "T.Higgins",
+      "projection": 15.326244354248047,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gpwtyv3viwy9q4ewderl",
+      "next_opponent": "TB"
     },
     {
       "player_name": "W.Robinson",
-      "projection": 16.816015243530273,
+      "projection": 15.324344635009766,
       "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yzcvyhmilvxedfjfjglc",
       "next_opponent": "DAL"
     },
     {
-      "player_name": "D.London",
-      "projection": 15.995637893676758,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/np91pvk7mczra1iyjkmo",
-      "next_opponent": "PIT"
+      "player_name": "N.Collins",
+      "projection": 15.242924690246582,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fguybjrn1kwflxm5szwq",
+      "next_opponent": "BUF"
     },
     {
       "player_name": "S.Diggs",
-      "projection": 15.857858657836914,
+      "projection": 14.688141822814941,
       "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cemcexmscsarpvwhafln",
       "next_opponent": "SEA"
     },
     {
-      "player_name": "M.Wilson",
-      "projection": 15.852609634399414,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yc8awtck004bz2a5oeb8",
-      "next_opponent": "LAC"
+      "player_name": "D.Adams",
+      "projection": 13.974527359008789,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tdzluk4xau3arxqk9zsl",
+      "next_opponent": "SF"
     },
     {
-      "player_name": "R.Rice",
-      "projection": 15.812252044677734,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/iy0uidp9wokc6a7u8lwq",
-      "next_opponent": "DEN"
+      "player_name": "C.Godwin",
+      "projection": 13.948023796081543,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ilkheljdx4hbjpisulke",
+      "next_opponent": "CIN"
     },
     {
-      "player_name": "J.Smith-Njigba",
-      "projection": 15.704627990722656,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jpvhsregfvw46mlyckzj",
-      "next_opponent": "NE"
-    },
-    {
-      "player_name": "T.Higgins",
-      "projection": 15.023170471191406,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/flr9f8oqigbyroeaubxb",
-      "next_opponent": "TB"
-    },
-    {
-      "player_name": "Z.Flowers",
-      "projection": 14.747346878051758,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/sqqh8gmxdpo55qwpsszj",
-      "next_opponent": "IND"
-    },
-    {
-      "player_name": "A.Brown",
-      "projection": 14.703826904296875,
-      "headshot_url": "https://static.www.nfl.com/image/private/f_auto,q_auto/league/a014sgzctarbvhwb35lw",
-      "next_opponent": "WAS"
-    },
-    {
-      "player_name": "N.Collins",
-      "projection": 14.643651962280273,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/osmqyvmib3pssxi6cyic",
-      "next_opponent": "BUF"
+      "player_name": "J.Waddle",
+      "projection": 13.946096420288086,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gkh7m1jedon9mwn5jlf1",
+      "next_opponent": "LV"
     },
     {
       "player_name": "L.Burden",
-      "projection": 14.069997787475586,
+      "projection": 13.887107849121094,
       "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/iyuwdz7pbowdkwzq2tg5",
       "next_opponent": "CAR"
     },
     {
-      "player_name": "P.Washington",
-      "projection": 13.672221183776855,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/sqgxayp6nrrpvwonksdm",
-      "next_opponent": "CLE"
+      "player_name": "J.Smith-Njigba",
+      "projection": 13.681350708007812,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yx1xjrupbqdknnjaq4a6",
+      "next_opponent": "NE"
+    },
+    {
+      "player_name": "C.Lamb",
+      "projection": 13.213783264160156,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mbblzwtynxr15ovzkevi",
+      "next_opponent": "NYG"
     },
     {
       "player_name": "C.Sutton",
-      "projection": 13.652610778808594,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/r2sr6cbma4c7wc3isejj",
+      "projection": 12.92255687713623,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/kqwmqcrlrwmqcvfuguhs",
       "next_opponent": "KC"
     },
     {
-      "player_name": "D.Adams",
-      "projection": 13.347798347473145,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qtonvcqpixixqhc6lhnc",
-      "next_opponent": "SF"
-    },
-    {
-      "player_name": "M.Evans",
-      "projection": 13.28665542602539,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yaxorbdsvk1ucfuiyrkj",
-      "next_opponent": "CIN"
-    },
-    {
-      "player_name": "C.Godwin",
-      "projection": 13.149288177490234,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ilkheljdx4hbjpisulke",
-      "next_opponent": "CIN"
+      "player_name": "P.Washington",
+      "projection": 12.764243125915527,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yn0hc5xrz5nqeccg8two",
+      "next_opponent": "CLE"
     }
   ],
   "rb": [
     {
-      "player_name": "J.Gibbs",
-      "projection": 17.66461944580078,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hjxk3judytgsxkqiilre",
-      "next_opponent": "NO"
-    },
-    {
       "player_name": "O.Hampton",
-      "projection": 17.485490798950195,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ck7xcbwuka7wu2zwhssk",
+      "projection": 17.114625930786133,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/lf2jxvxnbexlinoydbej",
       "next_opponent": "ARI"
     },
     {
+      "player_name": "J.Gibbs",
+      "projection": 17.097885131835938,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cursejnmmp1i9hnxihkj",
+      "next_opponent": "NO"
+    },
+    {
+      "player_name": "C.Brown",
+      "projection": 17.04302215576172,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tch3y6jlj7khvyi9jg0c",
+      "next_opponent": "TB"
+    },
+    {
       "player_name": "J.Cook",
-      "projection": 16.964096069335938,
+      "projection": 16.3643798828125,
       "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/anjbznqb9i21wzcgrtbs",
       "next_opponent": "HOU"
     },
     {
-      "player_name": "C.Brown",
-      "projection": 16.512622833251953,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pv3sq3uzosixxexbznq5",
-      "next_opponent": "TB"
-    },
-    {
-      "player_name": "C.McCaffrey",
-      "projection": 16.24346160888672,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/resjdwihunsqckohcorj",
-      "next_opponent": "LA"
-    },
-    {
       "player_name": "S.Barkley",
-      "projection": 16.055185317993164,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ern1nbhivkmwkg82c7v1",
+      "projection": 16.259967803955078,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qcayrzjpura2zydszonh",
       "next_opponent": "WAS"
     },
     {
-      "player_name": "Z.Charbonnet",
-      "projection": 15.919716835021973,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jqbzg5e8pdltbnb7hc8p",
-      "next_opponent": "NE"
-    },
-    {
       "player_name": "J.Taylor",
-      "projection": 15.68475341796875,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/uwmnrhwtwug0wrgkomjk",
+      "projection": 16.21077537536621,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yw46ky6akdm7h7siofu8",
       "next_opponent": "BAL"
     },
     {
-      "player_name": "R.Stevenson",
-      "projection": 15.558026313781738,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ed09migntlyy8ntgvcu1",
-      "next_opponent": "SEA"
+      "player_name": "Z.Charbonnet",
+      "projection": 16.087366104125977,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cuuyog0lpxfaj0y0huvp",
+      "next_opponent": "NE"
+    },
+    {
+      "player_name": "C.McCaffrey",
+      "projection": 15.932130813598633,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/st82s2ytyzanatcmkqck",
+      "next_opponent": "LA"
     },
     {
       "player_name": "K.Williams",
-      "projection": 15.281744003295898,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/smsyrjrwy0lf0hu9hkvg",
+      "projection": 15.269937515258789,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xti3pek6rmojqchakxpy",
       "next_opponent": "SF"
     },
     {
+      "player_name": "Ty.Johnson",
+      "projection": 15.099052429199219,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zruhihypizhtgpvsaj3c",
+      "next_opponent": "HOU"
+    },
+    {
       "player_name": "D.Achane",
-      "projection": 14.845680236816406,
+      "projection": 15.073461532592773,
       "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xk1xwio0bryfxo1ylweu",
       "next_opponent": "LV"
     },
     {
-      "player_name": "A.Jeanty",
-      "projection": 14.637917518615723,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/syspis1mntov9kgspb7r",
-      "next_opponent": "MIA"
-    },
-    {
       "player_name": "T.Pollard",
-      "projection": 14.420372009277344,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dvpdczetkdhrqpm8izmd",
+      "projection": 14.761070251464844,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mb2xdrqiys6ktlcuah2n",
       "next_opponent": "NYJ"
     },
     {
-      "player_name": "T.Tracy",
-      "projection": 14.332748413085938,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/b9nje50lohbprf06xoom",
-      "next_opponent": "DAL"
+      "player_name": "R.Stevenson",
+      "projection": 14.752073287963867,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zmpuirvuw4r04inxth5i",
+      "next_opponent": "SEA"
     },
     {
       "player_name": "A.Jones",
-      "projection": 14.250415802001953,
+      "projection": 14.651095390319824,
       "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bktkfvgfwujkdbzkcfim",
       "next_opponent": "GB"
     },
     {
-      "player_name": "B.Robinson",
-      "projection": 13.485125541687012,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/rjaf9auhx3lrktzgwpfb",
-      "next_opponent": "PIT"
+      "player_name": "A.Jeanty",
+      "projection": 14.399287223815918,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/syspis1mntov9kgspb7r",
+      "next_opponent": "MIA"
     },
     {
-      "player_name": "T.Etienne",
-      "projection": 13.271425247192383,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gc0iljgj34piecyfueyd",
-      "next_opponent": "CLE"
+      "player_name": "T.Tracy",
+      "projection": 14.09217643737793,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/b9nje50lohbprf06xoom",
+      "next_opponent": "DAL"
     },
     {
       "player_name": "D.Henry",
-      "projection": 13.241921424865723,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jxtikemnvpkw9r0ex2wv",
+      "projection": 13.910568237304688,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tm79x0iknqg6hms3ypyt",
       "next_opponent": "IND"
     },
     {
       "player_name": "K.Walker",
-      "projection": 13.14380168914795,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mnzsnemdzbey5hbahdhk",
+      "projection": 13.439945220947266,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vk6nruaqdewdglofcwwg",
       "next_opponent": "NE"
     },
     {
-      "player_name": "Ty.Johnson",
-      "projection": 13.125421524047852,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hmnzcfm56ojey6myomjg",
-      "next_opponent": "HOU"
+      "player_name": "B.Irving",
+      "projection": 13.240117073059082,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vkc00rvnix3f2b96vkwo",
+      "next_opponent": "CIN"
+    },
+    {
+      "player_name": "B.Robinson",
+      "projection": 13.045514106750488,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/esii5yb8yn9edboi4mlq",
+      "next_opponent": "PIT"
     }
   ],
   "qb": [
     {
       "player_name": "J.Dart",
-      "projection": 19.643268585205078,
+      "projection": 20.216917037963867,
       "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/n6uymxssgiicjmxkzxoc",
       "next_opponent": "DAL"
     },
     {
-      "player_name": "D.Maye",
-      "projection": 19.6232852935791,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/oyap81gtzcvnfmripis1",
-      "next_opponent": "SEA"
-    },
-    {
       "player_name": "T.Lawrence",
-      "projection": 19.59151268005371,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/d75srntioly7fq0z8vip",
+      "projection": 20.087181091308594,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/k9uzdernqkx7oquy7dkg",
       "next_opponent": "CLE"
     },
     {
-      "player_name": "J.Burrow",
-      "projection": 19.031028747558594,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gnnvcgui1cijybukk2w7",
-      "next_opponent": "TB"
-    },
-    {
       "player_name": "J.Hurts",
-      "projection": 18.73346710205078,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/c47i9v6gmokkun9cat9s",
+      "projection": 19.608049392700195,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xow5yvxjeqa6witmofmp",
       "next_opponent": "WAS"
     },
     {
-      "player_name": "J.Allen",
-      "projection": 18.618045806884766,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/servs1fpsynfxep4rz2z",
-      "next_opponent": "HOU"
-    },
-    {
       "player_name": "M.Stafford",
-      "projection": 18.525665283203125,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/svxl2pk2cuqf26zrhii4",
+      "projection": 19.532520294189453,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jwpkjfrkzufdyh8u1mg7",
       "next_opponent": "SF"
     },
     {
+      "player_name": "D.Maye",
+      "projection": 19.037288665771484,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/s1nmoon2xnrc3bnyulv4",
+      "next_opponent": "SEA"
+    },
+    {
       "player_name": "C.Williams",
-      "projection": 18.409852981567383,
+      "projection": 18.931434631347656,
       "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/h4qs11kutwiw7whekmyt",
       "next_opponent": "CAR"
     },
     {
-      "player_name": "B.Nix",
-      "projection": 17.645889282226562,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/igirshmrr6lqtxcpxsea",
-      "next_opponent": "KC"
-    },
-    {
-      "player_name": "M.Willis",
-      "projection": 17.52661895751953,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hsnetccy7bquili3gcqq",
-      "next_opponent": "MIN"
+      "player_name": "J.Allen",
+      "projection": 18.0910587310791,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mjwbioajzldkq1vzoz2d",
+      "next_opponent": "HOU"
     },
     {
       "player_name": "J.Herbert",
-      "projection": 17.12989044189453,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/s1oelyaroiaalgilbeqk",
+      "projection": 18.049419403076172,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jnkspnntgebegzp4ghve",
       "next_opponent": "ARI"
     },
     {
-      "player_name": "T.Shough",
-      "projection": 16.85163116455078,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wsrkib8qgwtb2t2ugaru",
-      "next_opponent": "DET"
+      "player_name": "M.Willis",
+      "projection": 17.92715835571289,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/txvgdbwbryzyyqq6gfet",
+      "next_opponent": "MIN"
+    },
+    {
+      "player_name": "B.Nix",
+      "projection": 17.512683868408203,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zvo9xatffmqn9lnukpgk",
+      "next_opponent": "KC"
+    },
+    {
+      "player_name": "B.Young",
+      "projection": 16.489912033081055,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vcvhmxvxw2a3armle0af",
+      "next_opponent": "CHI"
+    },
+    {
+      "player_name": "C.Ward",
+      "projection": 16.47073745727539,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/l7switu6stlwd2irm8yo",
+      "next_opponent": "NYJ"
     }
   ],
   "te": [
     {
       "player_name": "B.Bowers",
-      "projection": 16.359451293945312,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/uzp2ffi0lomamxofsrhy",
+      "projection": 16.93629264831543,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/waorceny0ggpaeckaol8",
       "next_opponent": "MIA"
     },
     {
       "player_name": "H.Fannin",
-      "projection": 14.426328659057617,
+      "projection": 14.783528327941895,
       "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fxublmpnxx9uggsddwik",
       "next_opponent": "JAX"
     },
     {
       "player_name": "T.McBride",
-      "projection": 13.430015563964844,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vd7av3vdfs6q7ncjogac",
+      "projection": 13.895092964172363,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/psasp10nn5pcvkli9kil",
       "next_opponent": "LAC"
     },
     {
-      "player_name": "K.Pitts",
-      "projection": 11.669151306152344,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tbec213me3pszzszecqo",
-      "next_opponent": "PIT"
-    },
-    {
       "player_name": "G.Kittle",
-      "projection": 11.658512115478516,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ztz3xqjaqgok9m4nylgs",
+      "projection": 12.569543838500977,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vkicdglglkyukgyxtmpx",
       "next_opponent": "LA"
     },
     {
-      "player_name": "J.Johnson",
-      "projection": 11.17123794555664,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wuyyzdqkh5fve8t7kfuv",
-      "next_opponent": "DET"
+      "player_name": "K.Pitts",
+      "projection": 11.483449935913086,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xczipzxvytnmvgznhhb4",
+      "next_opponent": "PIT"
     },
     {
-      "player_name": "C.Okonkwo",
-      "projection": 10.826972007751465,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/omm5z5iq6dlmidqz1sgz",
-      "next_opponent": "NYJ"
+      "player_name": "D.Goedert",
+      "projection": 11.455129623413086,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bafepstxu7vvxb9v5vua",
+      "next_opponent": "WAS"
     },
     {
-      "player_name": "C.Parkinson",
-      "projection": 10.666956901550293,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/b1qzivnz0zqa8cjgah8r",
+      "player_name": "T.Higbee",
+      "projection": 11.446127891540527,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/x1d4osiefibd04df6gow",
       "next_opponent": "SF"
     },
     {
-      "player_name": "D.Schultz",
-      "projection": 10.061103820800781,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xbl9mhuamzv5udb4hyzj",
-      "next_opponent": "BUF"
+      "player_name": "C.Okonkwo",
+      "projection": 11.232312202453613,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pzcez6pi9tpdqkmjjnzk",
+      "next_opponent": "NYJ"
     },
     {
-      "player_name": "D.Knox",
-      "projection": 9.96875286102295,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mswln16dmfhi7m7pzh7q",
-      "next_opponent": "HOU"
+      "player_name": "J.Johnson",
+      "projection": 10.796820640563965,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ahzqkvhjot6lygwr4ccb",
+      "next_opponent": "DET"
     },
     {
-      "player_name": "H.Henry",
-      "projection": 9.734821319580078,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/l0fsrutz9fwbohx10lcf",
-      "next_opponent": "SEA"
+      "player_name": "C.Parkinson",
+      "projection": 10.787900924682617,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qsyrgtfjj06wryahnxc9",
+      "next_opponent": "SF"
     },
     {
       "player_name": "M.Mayer",
-      "projection": 9.566132545471191,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/crb4nzumiww6ftxcyiqm",
+      "projection": 10.532341957092285,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/twnkr9uq1phvukxb5jmh",
       "next_opponent": "MIA"
+    },
+    {
+      "player_name": "D.Schultz",
+      "projection": 10.402531623840332,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ym8sbkev8l4scnrc0vd8",
+      "next_opponent": "BUF"
     }
   ]
 }
