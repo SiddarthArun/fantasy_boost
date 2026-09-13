@@ -1,395 +1,651 @@
 {
-  "generated_at": "2026-07-28T13:58:32.511178+00:00",
+  "generated_at": "2026-09-13T13:34:42.118813+00:00",
   "wr": [
     {
-      "player_name": "P.Nacua",
-      "projection": 24.4840030670166,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zvi4hdm6fywcekfe7ceb",
-      "next_opponent": "SF"
-    },
-    {
-      "player_name": "J.Chase",
-      "projection": 20.913166046142578,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qya3dtjb5kgofcuj2tuw",
-      "next_opponent": "TB"
-    },
-    {
-      "player_name": "A.St. Brown",
-      "projection": 17.454618453979492,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fd8nwhm6pvxfyzphzl6i",
-      "next_opponent": "NO"
-    },
-    {
-      "player_name": "C.Olave",
-      "projection": 17.00599479675293,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vrrmyvpvujynckag9jop",
-      "next_opponent": "DET"
-    },
-    {
-      "player_name": "W.Robinson",
-      "projection": 16.816015243530273,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yzcvyhmilvxedfjfjglc",
-      "next_opponent": "DAL"
-    },
-    {
-      "player_name": "D.London",
-      "projection": 15.995637893676758,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/np91pvk7mczra1iyjkmo",
-      "next_opponent": "PIT"
-    },
-    {
-      "player_name": "S.Diggs",
-      "projection": 15.857858657836914,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cemcexmscsarpvwhafln",
-      "next_opponent": "SEA"
-    },
-    {
-      "player_name": "M.Wilson",
-      "projection": 15.852609634399414,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yc8awtck004bz2a5oeb8",
-      "next_opponent": "LAC"
-    },
-    {
-      "player_name": "R.Rice",
-      "projection": 15.812252044677734,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/iy0uidp9wokc6a7u8lwq",
-      "next_opponent": "DEN"
-    },
-    {
       "player_name": "J.Smith-Njigba",
-      "projection": 15.704627990722656,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jpvhsregfvw46mlyckzj",
-      "next_opponent": "NE"
+      "projection": 20.247995376586914,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yx1xjrupbqdknnjaq4a6",
+      "next_opponent": "ARI",
+      "prior_season_ppg": 21.17058823529412,
+      "fantasy_points_ppr_std5": 5.638882868086546,
+      "position": "WR",
+      "targets_ewma3": 9.83958861033582,
+      "touches_ewma3": 9.926994828046487,
+      "wopr_ewma3": 0.9819670334197984,
+      "receiving_yards_ewma3": 86.14858248924544,
+      "rushing_yards_ewma3": 0.19653929254918664,
+      "passing_yards_ewma3": 1.4328865167154058e-05,
+      "target_share_ewma3": 0.35857856616188166
     },
     {
-      "player_name": "T.Higgins",
-      "projection": 15.023170471191406,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/flr9f8oqigbyroeaubxb",
-      "next_opponent": "TB"
-    },
-    {
-      "player_name": "Z.Flowers",
-      "projection": 14.747346878051758,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/sqqh8gmxdpo55qwpsszj",
-      "next_opponent": "IND"
+      "player_name": "P.Nacua",
+      "projection": 19.162822723388672,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ipy6qw7hdygdfc8k86ba",
+      "next_opponent": "NYG",
+      "prior_season_ppg": 23.4375,
+      "fantasy_points_ppr_std5": 11.499913043149503,
+      "position": "WR",
+      "targets_ewma3": 11.325665028990125,
+      "touches_ewma3": 12.32613673874358,
+      "wopr_ewma3": 0.6180187631370159,
+      "receiving_yards_ewma3": 104.55803360708066,
+      "rushing_yards_ewma3": 10.523233808187513,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.3004484887373999
     },
     {
       "player_name": "A.Brown",
-      "projection": 14.703826904296875,
-      "headshot_url": "https://static.www.nfl.com/image/private/f_auto,q_auto/league/a014sgzctarbvhwb35lw",
-      "next_opponent": "WAS"
-    },
-    {
-      "player_name": "N.Collins",
-      "projection": 14.643651962280273,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/osmqyvmib3pssxi6cyic",
-      "next_opponent": "BUF"
-    },
-    {
-      "player_name": "L.Burden",
-      "projection": 14.069997787475586,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/iyuwdz7pbowdkwzq2tg5",
-      "next_opponent": "CAR"
-    },
-    {
-      "player_name": "P.Washington",
-      "projection": 13.672221183776855,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/sqgxayp6nrrpvwonksdm",
-      "next_opponent": "CLE"
-    },
-    {
-      "player_name": "C.Sutton",
-      "projection": 13.652610778808594,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/r2sr6cbma4c7wc3isejj",
-      "next_opponent": "KC"
+      "projection": 13.581979751586914,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qfhvjyssf0lwsh0kienp",
+      "next_opponent": "PIT",
+      "prior_season_ppg": 14.686666666666667,
+      "fantasy_points_ppr_std5": 9.627408789492636,
+      "position": "WR",
+      "targets_ewma3": 8.389338372034288,
+      "touches_ewma3": 8.389338372034288,
+      "wopr_ewma3": 0.7390793801530946,
+      "receiving_yards_ewma3": 77.26123275441677,
+      "rushing_yards_ewma3": 0.0,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.31521239574559057
     },
     {
       "player_name": "D.Adams",
-      "projection": 13.347798347473145,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qtonvcqpixixqhc6lhnc",
-      "next_opponent": "SF"
+      "projection": 11.589449882507324,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tdzluk4xau3arxqk9zsl",
+      "next_opponent": "NYG",
+      "prior_season_ppg": 15.921428571428573,
+      "fantasy_points_ppr_std5": 7.935804937118869,
+      "position": "WR",
+      "targets_ewma3": 7.4900195696221,
+      "touches_ewma3": 7.4900195696221,
+      "wopr_ewma3": 0.5535388535465916,
+      "receiving_yards_ewma3": 54.045464087207726,
+      "rushing_yards_ewma3": 0.0,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.22254878859142804
+    },
+    {
+      "player_name": "D.Samuel",
+      "projection": 10.707646369934082,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ntgyhqg6hq7fanhhsqiw",
+      "next_opponent": "MIA",
+      "prior_season_ppg": 11.762500000000001,
+      "fantasy_points_ppr_std5": 2.606146580681903,
+      "position": "WR",
+      "targets_ewma3": 4.80705376521745,
+      "touches_ewma3": 6.186368046461811,
+      "wopr_ewma3": 0.4408860834622081,
+      "receiving_yards_ewma3": 38.77267207688702,
+      "rushing_yards_ewma3": 6.409280906414888,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.23925691596386323
+    },
+    {
+      "player_name": "M.Hollins",
+      "projection": 9.79322624206543,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qbz7whjzsittudcecezw",
+      "next_opponent": "PIT",
+      "prior_season_ppg": 8.1,
+      "fantasy_points_ppr_std5": 3.7219618482730294,
+      "position": "WR",
+      "targets_ewma3": 7.339428775497303,
+      "touches_ewma3": 7.346147239499242,
+      "wopr_ewma3": 0.5690621893111631,
+      "receiving_yards_ewma3": 51.643950472815064,
+      "rushing_yards_ewma3": 0.026873856007759496,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.2327674522017547
+    },
+    {
+      "player_name": "R.Doubs",
+      "projection": 8.664029121398926,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yxvzijmgwyyigljxfmyb",
+      "next_opponent": "PIT",
+      "prior_season_ppg": 10.3375,
+      "fantasy_points_ppr_std5": 7.2365737749296795,
+      "position": "WR",
+      "targets_ewma3": 3.8756244618848483,
+      "touches_ewma3": 3.8756244618848483,
+      "wopr_ewma3": 0.37826544774797427,
+      "receiving_yards_ewma3": 54.08132737952352,
+      "rushing_yards_ewma3": 0.0,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.15063805191903076
     },
     {
       "player_name": "M.Evans",
-      "projection": 13.28665542602539,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yaxorbdsvk1ucfuiyrkj",
-      "next_opponent": "CIN"
+      "projection": 8.260016441345215,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zc4ujpmndyxrbiyyjomz",
+      "next_opponent": "MIA",
+      "prior_season_ppg": 10.600000000000001,
+      "fantasy_points_ppr_std5": 7.53146732051598,
+      "position": "WR",
+      "targets_ewma3": 5.775706635886572,
+      "touches_ewma3": 5.775706635886572,
+      "wopr_ewma3": 0.4943437299152722,
+      "receiving_yards_ewma3": 41.09982077325446,
+      "rushing_yards_ewma3": 0.0,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.1869832241037387
     },
     {
-      "player_name": "C.Godwin",
-      "projection": 13.149288177490234,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ilkheljdx4hbjpisulke",
-      "next_opponent": "CIN"
+      "player_name": "D.Robinson",
+      "projection": 5.354269027709961,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cokassoz2z7hb4wk2krh",
+      "next_opponent": "MIA",
+      "prior_season_ppg": 4.1571428571428575,
+      "fantasy_points_ppr_std5": 3.4368590311503855,
+      "position": "WR",
+      "targets_ewma3": 2.7412841080089136,
+      "touches_ewma3": 2.7931241272251954,
+      "wopr_ewma3": 0.2509918524102419,
+      "receiving_yards_ewma3": 24.247676734267056,
+      "rushing_yards_ewma3": 0.3110404400110651,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.09570458675262591
+    },
+    {
+      "player_name": "C.Kupp",
+      "projection": 5.217133522033691,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/kjixprihktsfog6wx9sq",
+      "next_opponent": "ARI",
+      "prior_season_ppg": 7.26875,
+      "fantasy_points_ppr_std5": 3.890372732785407,
+      "position": "WR",
+      "targets_ewma3": 3.582029354609988,
+      "touches_ewma3": 3.5820303207848982,
+      "wopr_ewma3": 0.3018024607912982,
+      "receiving_yards_ewma3": 26.784211511662825,
+      "rushing_yards_ewma3": 3.6518136417499653e-06,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.12856880379912228
+    },
+    {
+      "player_name": "X.Smith",
+      "projection": 4.499308109283447,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hqvwpitewijx8bjrcofe",
+      "next_opponent": "NYG",
+      "prior_season_ppg": 3.0187500000000003,
+      "fantasy_points_ppr_std5": 4.625689137847463,
+      "position": "WR",
+      "targets_ewma3": 2.754112368848542,
+      "touches_ewma3": 2.75433942234516,
+      "wopr_ewma3": 0.1968680925940859,
+      "receiving_yards_ewma3": 30.00349885714588,
+      "rushing_yards_ewma3": 0.0006975363393780819,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.07548500357643817
+    },
+    {
+      "player_name": "D.Douglas",
+      "projection": 4.445332050323486,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cm9vnzqu5phlmsocjwgc",
+      "next_opponent": "PIT",
+      "prior_season_ppg": 5.9875,
+      "fantasy_points_ppr_std5": 2.4337214302380654,
+      "position": "WR",
+      "targets_ewma3": 2.2985266515518363,
+      "touches_ewma3": 2.454190301711509,
+      "wopr_ewma3": 0.22310838771274763,
+      "receiving_yards_ewma3": 19.802101213549854,
+      "rushing_yards_ewma3": 0.7872430898123678,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.09706696972232405
+    },
+    {
+      "player_name": "R.Shaheed",
+      "projection": 3.88568115234375,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ku2naisfbxmzgagxojnm",
+      "next_opponent": "ARI",
+      "prior_season_ppg": 8.7,
+      "fantasy_points_ppr_std5": 6.675102995460066,
+      "position": "WR",
+      "targets_ewma3": 1.9321799121787824,
+      "touches_ewma3": 2.237694021486314,
+      "wopr_ewma3": 0.1587561064665002,
+      "receiving_yards_ewma3": 13.760037932541747,
+      "rushing_yards_ewma3": 4.736737106757385,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.06661454803911995
+    },
+    {
+      "player_name": "K.Williams",
+      "projection": 3.7855234146118164,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xkicyhizq6sm86wr5osk",
+      "next_opponent": "PIT",
+      "prior_season_ppg": 3.5142857142857147,
+      "fantasy_points_ppr_std5": 5.6742400372208435,
+      "position": "WR",
+      "targets_ewma3": 1.81172580095467,
+      "touches_ewma3": 2.213491829768772,
+      "wopr_ewma3": 0.16736244702887745,
+      "receiving_yards_ewma3": 14.525425244677262,
+      "rushing_yards_ewma3": 1.9986638597788047,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.06412058299774968
+    },
+    {
+      "player_name": "K.Mumpfield",
+      "projection": 3.141594171524048,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cehkowkvb4aujslmppbj",
+      "next_opponent": "NYG",
+      "prior_season_ppg": 2.52,
+      "fantasy_points_ppr_std5": 2.906888370749726,
+      "position": "WR",
+      "targets_ewma3": 2.982776006698964,
+      "touches_ewma3": 2.982776006698964,
+      "wopr_ewma3": 0.17164125390929919,
+      "receiving_yards_ewma3": 9.00200152968462,
+      "rushing_yards_ewma3": 0.0,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.07481258345148438
+    },
+    {
+      "player_name": "J.Cowing",
+      "projection": 1.8269271850585938,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/uarciagmnzmyzs102dv6",
+      "next_opponent": "MIA",
+      "prior_season_ppg": 0.0,
+      "fantasy_points_ppr_std5": 2.5491174943497605,
+      "position": "WR",
+      "targets_ewma3": 0.8643396347178183,
+      "touches_ewma3": 1.2645277971828144,
+      "wopr_ewma3": 0.05298206899514706,
+      "receiving_yards_ewma3": 12.207293606155927,
+      "rushing_yards_ewma3": 2.8013171372549728,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.021441651105149683
+    },
+    {
+      "player_name": "J.Whittington",
+      "projection": 1.278834581375122,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/enqcg1lgjkuk0hqz3qjc",
+      "next_opponent": "NYG",
+      "prior_season_ppg": 2.4200000000000004,
+      "fantasy_points_ppr_std5": 1.3026895255585664,
+      "position": "WR",
+      "targets_ewma3": 0.43678715156773557,
+      "touches_ewma3": 0.43921818297630977,
+      "wopr_ewma3": 0.024068191298654562,
+      "receiving_yards_ewma3": 3.701549464641728,
+      "rushing_yards_ewma3": 0.009919165403466093,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.011923390998210551
+    },
+    {
+      "player_name": "K.Hodge",
+      "projection": 1.0333884954452515,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/r6vyxamrbb62lcccap2r",
+      "next_opponent": "MIA",
+      "prior_season_ppg": 0.7625,
+      "fantasy_points_ppr_std5": 2.728002932549744,
+      "position": "WR",
+      "targets_ewma3": 0.7008312487454037,
+      "touches_ewma3": 0.7008313371749756,
+      "wopr_ewma3": 0.06244397811948364,
+      "receiving_yards_ewma3": 1.8655592369422334,
+      "rushing_yards_ewma3": 0.0,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.0233771730672052
     }
   ],
   "rb": [
     {
-      "player_name": "J.Gibbs",
-      "projection": 17.66461944580078,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hjxk3judytgsxkqiilre",
-      "next_opponent": "NO"
-    },
-    {
-      "player_name": "O.Hampton",
-      "projection": 17.485490798950195,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ck7xcbwuka7wu2zwhssk",
-      "next_opponent": "ARI"
-    },
-    {
-      "player_name": "J.Cook",
-      "projection": 16.964096069335938,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/anjbznqb9i21wzcgrtbs",
-      "next_opponent": "HOU"
-    },
-    {
-      "player_name": "C.Brown",
-      "projection": 16.512622833251953,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pv3sq3uzosixxexbznq5",
-      "next_opponent": "TB"
+      "player_name": "K.Williams",
+      "projection": 14.701058387756348,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xti3pek6rmojqchakxpy",
+      "next_opponent": "NYG",
+      "prior_season_ppg": 15.488235294117647,
+      "fantasy_points_ppr_std5": 4.474036209062245,
+      "position": "RB",
+      "targets_ewma3": 3.8892456154897554,
+      "touches_ewma3": 18.13033856164564,
+      "wopr_ewma3": 0.17215282902368473,
+      "receiving_yards_ewma3": 21.542173745129286,
+      "rushing_yards_ewma3": 72.68455521115895,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.10142989334276677
     },
     {
       "player_name": "C.McCaffrey",
-      "projection": 16.24346160888672,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/resjdwihunsqckohcorj",
-      "next_opponent": "LA"
-    },
-    {
-      "player_name": "S.Barkley",
-      "projection": 16.055185317993164,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ern1nbhivkmwkg82c7v1",
-      "next_opponent": "WAS"
-    },
-    {
-      "player_name": "Z.Charbonnet",
-      "projection": 15.919716835021973,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jqbzg5e8pdltbnb7hc8p",
-      "next_opponent": "NE"
-    },
-    {
-      "player_name": "J.Taylor",
-      "projection": 15.68475341796875,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/uwmnrhwtwug0wrgkomjk",
-      "next_opponent": "BAL"
+      "projection": 13.263335227966309,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/st82s2ytyzanatcmkqck",
+      "next_opponent": "MIA",
+      "prior_season_ppg": 24.50588235294118,
+      "fantasy_points_ppr_std5": 8.83826906130381,
+      "position": "RB",
+      "targets_ewma3": 6.2443417306421045,
+      "touches_ewma3": 22.39270262649517,
+      "wopr_ewma3": 0.3913394502565693,
+      "receiving_yards_ewma3": 34.09850857180294,
+      "rushing_yards_ewma3": 74.64086229803864,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.21269723738708882
     },
     {
       "player_name": "R.Stevenson",
-      "projection": 15.558026313781738,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ed09migntlyy8ntgvcu1",
-      "next_opponent": "SEA"
+      "projection": 12.23625373840332,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zmpuirvuw4r04inxth5i",
+      "next_opponent": "PIT",
+      "prior_season_ppg": 12.771428571428572,
+      "fantasy_points_ppr_std5": 10.694157283301946,
+      "position": "RB",
+      "targets_ewma3": 2.9972186843685864,
+      "touches_ewma3": 10.822466202030547,
+      "wopr_ewma3": 0.22061370592618956,
+      "receiving_yards_ewma3": 30.934140600804938,
+      "rushing_yards_ewma3": 79.57175464392435,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.12078711111688531
     },
     {
-      "player_name": "K.Williams",
-      "projection": 15.281744003295898,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/smsyrjrwy0lf0hu9hkvg",
-      "next_opponent": "SF"
+      "player_name": "E.Wilson",
+      "projection": 7.389414310455322,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/uorruvczsxzvffpbxu8z",
+      "next_opponent": "ARI",
+      "prior_season_ppg": 5.5588235294117645,
+      "fantasy_points_ppr_std5": 3.301211898682058,
+      "position": "RB",
+      "targets_ewma3": 0.7169621420437227,
+      "touches_ewma3": 11.827988275871153,
+      "wopr_ewma3": 0.01854865796394515,
+      "receiving_yards_ewma3": 4.049964841159843,
+      "rushing_yards_ewma3": 37.204736317911866,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.052668199836080974
     },
     {
-      "player_name": "D.Achane",
-      "projection": 14.845680236816406,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xk1xwio0bryfxo1ylweu",
-      "next_opponent": "LV"
+      "player_name": "B.Corum",
+      "projection": 6.876851558685303,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/axzqbqjkrbwfzodwwakq",
+      "next_opponent": "NYG",
+      "prior_season_ppg": 7.188235294117647,
+      "fantasy_points_ppr_std5": 8.962142600963233,
+      "position": "RB",
+      "targets_ewma3": 0.7687127394087769,
+      "touches_ewma3": 11.620849869831186,
+      "wopr_ewma3": 0.03381730379848383,
+      "receiving_yards_ewma3": 5.986070782130444,
+      "rushing_yards_ewma3": 51.463053256639704,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.01948342426154793
     },
     {
-      "player_name": "A.Jeanty",
-      "projection": 14.637917518615723,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/syspis1mntov9kgspb7r",
-      "next_opponent": "MIA"
+      "player_name": "C.Kiner",
+      "projection": 3.462202787399292,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tpnamrgzfbytwlzhhyf8",
+      "next_opponent": "PIT",
+      "prior_season_ppg": 2.325,
+      "fantasy_points_ppr_std5": 2.0742468512691543,
+      "position": "RB",
+      "targets_ewma3": 1.3786764705882353,
+      "touches_ewma3": 4.224264705882352,
+      "wopr_ewma3": 0.0879556877531889,
+      "receiving_yards_ewma3": 6.893382352941176,
+      "rushing_yards_ewma3": 12.91176470588235,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.04923844537815125
     },
     {
-      "player_name": "T.Pollard",
-      "projection": 14.420372009277344,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dvpdczetkdhrqpm8izmd",
-      "next_opponent": "NYJ"
+      "player_name": "G.Holani",
+      "projection": 3.069199562072754,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pgwvv5qhcmnwf3tomy1a",
+      "next_opponent": "ARI",
+      "prior_season_ppg": 2.08,
+      "fantasy_points_ppr_std5": 3.921351807731614,
+      "position": "RB",
+      "targets_ewma3": 0.023296019152193776,
+      "touches_ewma3": 3.055584362846722,
+      "wopr_ewma3": 0.001676853697760366,
+      "receiving_yards_ewma3": 0.1673094047597566,
+      "rushing_yards_ewma3": 11.467820531739546,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.0011512722253712972
     },
     {
-      "player_name": "T.Tracy",
-      "projection": 14.332748413085938,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/b9nje50lohbprf06xoom",
-      "next_opponent": "DAL"
-    },
-    {
-      "player_name": "A.Jones",
-      "projection": 14.250415802001953,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bktkfvgfwujkdbzkcfim",
-      "next_opponent": "GB"
-    },
-    {
-      "player_name": "B.Robinson",
-      "projection": 13.485125541687012,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/rjaf9auhx3lrktzgwpfb",
-      "next_opponent": "PIT"
-    },
-    {
-      "player_name": "T.Etienne",
-      "projection": 13.271425247192383,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gc0iljgj34piecyfueyd",
-      "next_opponent": "CLE"
-    },
-    {
-      "player_name": "D.Henry",
-      "projection": 13.241921424865723,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jxtikemnvpkw9r0ex2wv",
-      "next_opponent": "IND"
-    },
-    {
-      "player_name": "K.Walker",
-      "projection": 13.14380168914795,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mnzsnemdzbey5hbahdhk",
-      "next_opponent": "NE"
-    },
-    {
-      "player_name": "Ty.Johnson",
-      "projection": 13.125421524047852,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hmnzcfm56ojey6myomjg",
-      "next_opponent": "HOU"
+      "player_name": "R.Rivers",
+      "projection": 1.776566743850708,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/t9l7jhs1jw1joy8jpxee",
+      "next_opponent": "NYG",
+      "prior_season_ppg": 0.7666666666666667,
+      "fantasy_points_ppr_std5": 1.790809872655386,
+      "position": "RB",
+      "targets_ewma3": 0.09660305563609191,
+      "touches_ewma3": 1.0410543254682842,
+      "wopr_ewma3": 0.002459290939232704,
+      "receiving_yards_ewma3": 0.6381521700667285,
+      "rushing_yards_ewma3": 4.51204688976677,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.002450695581160139
     }
   ],
   "qb": [
     {
-      "player_name": "J.Dart",
-      "projection": 19.643268585205078,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/n6uymxssgiicjmxkzxoc",
-      "next_opponent": "DAL"
+      "player_name": "B.Purdy",
+      "projection": 17.23261070251465,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xs2fyj1sqdgwvt9ihbri",
+      "next_opponent": "MIA",
+      "prior_season_ppg": 19.70888888888889,
+      "fantasy_points_ppr_std5": 12.4317609372124,
+      "position": "QB",
+      "targets_ewma3": 0.0,
+      "touches_ewma3": 3.5305750618180407,
+      "wopr_ewma3": 0.0,
+      "receiving_yards_ewma3": 0.0,
+      "rushing_yards_ewma3": 21.493142980393348,
+      "passing_yards_ewma3": 218.25523758386745,
+      "target_share_ewma3": 0.0
     },
     {
       "player_name": "D.Maye",
-      "projection": 19.6232852935791,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/oyap81gtzcvnfmripis1",
-      "next_opponent": "SEA"
+      "projection": 17.209720611572266,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/s1nmoon2xnrc3bnyulv4",
+      "next_opponent": "PIT",
+      "prior_season_ppg": 20.70352941176471,
+      "fantasy_points_ppr_std5": 6.204749793504978,
+      "position": "QB",
+      "targets_ewma3": 0.00011284442124519845,
+      "touches_ewma3": 5.248936193137037,
+      "wopr_ewma3": 1.971314252158802e-06,
+      "receiving_yards_ewma3": 0.0002256888424903969,
+      "rushing_yards_ewma3": 31.051530579745453,
+      "passing_yards_ewma3": 242.29789757209204,
+      "target_share_ewma3": 2.5076538054488552e-06
     },
     {
-      "player_name": "T.Lawrence",
-      "projection": 19.59151268005371,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/d75srntioly7fq0z8vip",
-      "next_opponent": "CLE"
-    },
-    {
-      "player_name": "J.Burrow",
-      "projection": 19.031028747558594,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gnnvcgui1cijybukk2w7",
-      "next_opponent": "TB"
-    },
-    {
-      "player_name": "J.Hurts",
-      "projection": 18.73346710205078,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/c47i9v6gmokkun9cat9s",
-      "next_opponent": "WAS"
-    },
-    {
-      "player_name": "J.Allen",
-      "projection": 18.618045806884766,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/servs1fpsynfxep4rz2z",
-      "next_opponent": "HOU"
+      "player_name": "S.Darnold",
+      "projection": 14.924309730529785,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fyay8vruj0cqmhopufzk",
+      "next_opponent": "ARI",
+      "prior_season_ppg": 13.848235294117647,
+      "fantasy_points_ppr_std5": 6.969791962462007,
+      "position": "QB",
+      "targets_ewma3": 0.0,
+      "touches_ewma3": 4.128680567763009,
+      "wopr_ewma3": 0.0,
+      "receiving_yards_ewma3": 0.0,
+      "rushing_yards_ewma3": 6.823920830324027,
+      "passing_yards_ewma3": 205.41750978091306,
+      "target_share_ewma3": 0.0
     },
     {
       "player_name": "M.Stafford",
-      "projection": 18.525665283203125,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/svxl2pk2cuqf26zrhii4",
-      "next_opponent": "SF"
+      "projection": 11.76583480834961,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jwpkjfrkzufdyh8u1mg7",
+      "next_opponent": "NYG",
+      "prior_season_ppg": 20.610588235294117,
+      "fantasy_points_ppr_std5": 6.794727367599087,
+      "position": "QB",
+      "targets_ewma3": 0.0,
+      "touches_ewma3": 0.8568984055498408,
+      "wopr_ewma3": 0.0,
+      "receiving_yards_ewma3": 0.0,
+      "rushing_yards_ewma3": 2.175482812375656,
+      "passing_yards_ewma3": 298.8664862627486,
+      "target_share_ewma3": 0.0
     },
     {
-      "player_name": "C.Williams",
-      "projection": 18.409852981567383,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/h4qs11kutwiw7whekmyt",
-      "next_opponent": "CAR"
-    },
-    {
-      "player_name": "B.Nix",
-      "projection": 17.645889282226562,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/igirshmrr6lqtxcpxsea",
-      "next_opponent": "KC"
-    },
-    {
-      "player_name": "M.Willis",
-      "projection": 17.52661895751953,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hsnetccy7bquili3gcqq",
-      "next_opponent": "MIN"
-    },
-    {
-      "player_name": "J.Herbert",
-      "projection": 17.12989044189453,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/s1oelyaroiaalgilbeqk",
-      "next_opponent": "ARI"
-    },
-    {
-      "player_name": "T.Shough",
-      "projection": 16.85163116455078,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wsrkib8qgwtb2t2ugaru",
-      "next_opponent": "DET"
+      "player_name": "D.Lock",
+      "projection": 6.961937427520752,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vdixnkk1uglfpwowalf8",
+      "next_opponent": "ARI",
+      "prior_season_ppg": 0.033333333333333326,
+      "fantasy_points_ppr_std5": 14.871552709787904,
+      "position": "QB",
+      "targets_ewma3": 0.0,
+      "touches_ewma3": 2.118191380842191,
+      "wopr_ewma3": 0.0,
+      "receiving_yards_ewma3": 0.0,
+      "rushing_yards_ewma3": 0.9869824921868164,
+      "passing_yards_ewma3": 43.87080327496817,
+      "target_share_ewma3": 0.0
     }
   ],
   "te": [
     {
-      "player_name": "B.Bowers",
-      "projection": 16.359451293945312,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/uzp2ffi0lomamxofsrhy",
-      "next_opponent": "MIA"
-    },
-    {
-      "player_name": "H.Fannin",
-      "projection": 14.426328659057617,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fxublmpnxx9uggsddwik",
-      "next_opponent": "JAX"
-    },
-    {
-      "player_name": "T.McBride",
-      "projection": 13.430015563964844,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vd7av3vdfs6q7ncjogac",
-      "next_opponent": "LAC"
-    },
-    {
-      "player_name": "K.Pitts",
-      "projection": 11.669151306152344,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tbec213me3pszzszecqo",
-      "next_opponent": "PIT"
-    },
-    {
       "player_name": "G.Kittle",
-      "projection": 11.658512115478516,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ztz3xqjaqgok9m4nylgs",
-      "next_opponent": "LA"
+      "projection": 9.003342628479004,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vkicdglglkyukgyxtmpx",
+      "next_opponent": "MIA",
+      "prior_season_ppg": 14.681818181818182,
+      "fantasy_points_ppr_std5": 7.365663581782706,
+      "position": "TE",
+      "targets_ewma3": 7.437674823365523,
+      "touches_ewma3": 7.448872270247196,
+      "wopr_ewma3": 0.5471682145573212,
+      "receiving_yards_ewma3": 66.31761796496197,
+      "rushing_yards_ewma3": -0.033592306263599214,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.2591645390205434
     },
     {
-      "player_name": "J.Johnson",
-      "projection": 11.17123794555664,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wuyyzdqkh5fve8t7kfuv",
-      "next_opponent": "DET"
-    },
-    {
-      "player_name": "C.Okonkwo",
-      "projection": 10.826972007751465,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/omm5z5iq6dlmidqz1sgz",
-      "next_opponent": "NYJ"
-    },
-    {
-      "player_name": "C.Parkinson",
-      "projection": 10.666956901550293,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/b1qzivnz0zqa8cjgah8r",
-      "next_opponent": "SF"
-    },
-    {
-      "player_name": "D.Schultz",
-      "projection": 10.061103820800781,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xbl9mhuamzv5udb4hyzj",
-      "next_opponent": "BUF"
-    },
-    {
-      "player_name": "D.Knox",
-      "projection": 9.96875286102295,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mswln16dmfhi7m7pzh7q",
-      "next_opponent": "HOU"
+      "player_name": "A.Barner",
+      "projection": 8.9723482131958,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/i0esiguve9if4ts5mm1q",
+      "next_opponent": "ARI",
+      "prior_season_ppg": 8.664705882352942,
+      "fantasy_points_ppr_std5": 5.1698162443166185,
+      "position": "TE",
+      "targets_ewma3": 3.9001774240260505,
+      "touches_ewma3": 4.1178638931811085,
+      "wopr_ewma3": 0.26767513572715845,
+      "receiving_yards_ewma3": 29.212061289050542,
+      "rushing_yards_ewma3": 0.2470310609206222,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.1384309939973596
     },
     {
       "player_name": "H.Henry",
-      "projection": 9.734821319580078,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/l0fsrutz9fwbohx10lcf",
-      "next_opponent": "SEA"
+      "projection": 8.960749626159668,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cvlunbqgztudbhjrug7l",
+      "next_opponent": "PIT",
+      "prior_season_ppg": 10.51764705882353,
+      "fantasy_points_ppr_std5": 4.89867328977959,
+      "position": "TE",
+      "targets_ewma3": 4.837128149464089,
+      "touches_ewma3": 4.837128149464089,
+      "wopr_ewma3": 0.36710935278841816,
+      "receiving_yards_ewma3": 49.64900887486308,
+      "rushing_yards_ewma3": 0.0,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.19196903337666668
     },
     {
-      "player_name": "M.Mayer",
-      "projection": 9.566132545471191,
-      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/crb4nzumiww6ftxcyiqm",
-      "next_opponent": "MIA"
+      "player_name": "C.Parkinson",
+      "projection": 8.34490966796875,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qsyrgtfjj06wryahnxc9",
+      "next_opponent": "NYG",
+      "prior_season_ppg": 9.271428571428572,
+      "fantasy_points_ppr_std5": 7.898923977352865,
+      "position": "TE",
+      "targets_ewma3": 6.226801941711504,
+      "touches_ewma3": 6.226801941711504,
+      "wopr_ewma3": 0.32508352346783914,
+      "receiving_yards_ewma3": 40.490319914931895,
+      "rushing_yards_ewma3": 0.0,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.16902290405422254
+    },
+    {
+      "player_name": "T.Higbee",
+      "projection": 7.09111213684082,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/x1d4osiefibd04df6gow",
+      "next_opponent": "NYG",
+      "prior_season_ppg": 7.109999999999999,
+      "fantasy_points_ppr_std5": 6.735874108087234,
+      "position": "TE",
+      "targets_ewma3": 4.265325274063432,
+      "touches_ewma3": 4.265325274063432,
+      "wopr_ewma3": 0.26664648456750223,
+      "receiving_yards_ewma3": 50.929667053389174,
+      "rushing_yards_ewma3": 0.0,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.12543099237946737
+    },
+    {
+      "player_name": "T.Ferguson",
+      "projection": 4.857340335845947,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/w5o0s5yf6j5dsmiwdtfg",
+      "next_opponent": "NYG",
+      "prior_season_ppg": 4.736363636363636,
+      "fantasy_points_ppr_std5": 6.7888143294687335,
+      "position": "TE",
+      "targets_ewma3": 3.211651736990776,
+      "touches_ewma3": 3.21569749327547,
+      "wopr_ewma3": 0.20782537096366482,
+      "receiving_yards_ewma3": 31.96087564776191,
+      "rushing_yards_ewma3": 0.0,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.0838119277573698
+    },
+    {
+      "player_name": "D.Allen",
+      "projection": 3.1133201122283936,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/iweydtcrfchsl3mt6jtd",
+      "next_opponent": "NYG",
+      "prior_season_ppg": 4.1866666666666665,
+      "fantasy_points_ppr_std5": 2.293468988235943,
+      "position": "TE",
+      "targets_ewma3": 2.6308827513030235,
+      "touches_ewma3": 2.6308827513030235,
+      "wopr_ewma3": 0.12191779261222752,
+      "receiving_yards_ewma3": 14.077078300719128,
+      "rushing_yards_ewma3": 0.0,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.06540259704135175
+    },
+    {
+      "player_name": "L.Farrell",
+      "projection": 2.4577865600585938,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/kdq2zratulrdsv4ykugy",
+      "next_opponent": "MIA",
+      "prior_season_ppg": 2.269230769230769,
+      "fantasy_points_ppr_std5": 4.141618041297386,
+      "position": "TE",
+      "targets_ewma3": 0.5502154879172957,
+      "touches_ewma3": 0.5502154879172957,
+      "wopr_ewma3": 0.03470822507810928,
+      "receiving_yards_ewma3": 1.7251299948372063,
+      "rushing_yards_ewma3": 0.0,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.01991679214157258
+    },
+    {
+      "player_name": "E.Saubert",
+      "projection": 2.4296529293060303,
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/czzieyox5rht6ae3g5tx",
+      "next_opponent": "ARI",
+      "prior_season_ppg": 1.011111111111111,
+      "fantasy_points_ppr_std5": 1.331164903383501,
+      "position": "TE",
+      "targets_ewma3": 1.8078633249282938,
+      "touches_ewma3": 1.8078633249282938,
+      "wopr_ewma3": 0.12620532537098939,
+      "receiving_yards_ewma3": 5.0787793191015425,
+      "rushing_yards_ewma3": 0.0,
+      "passing_yards_ewma3": 0.0,
+      "target_share_ewma3": 0.06873018104050274
     }
   ]
 }

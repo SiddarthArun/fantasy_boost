@@ -33,7 +33,7 @@ for _, row in target_week_games.iterrows():
     team_next_opp[row['home_team']] = row['away_team']
     team_next_opp[row['away_team']] = row['home_team']
 
-print(f"Most recent completed: {latest_season} wk{latest_week} → projecting {target_season} wk{target_week}")
+print(f"Most recent completed: {latest_season} wk{latest_week} -> projecting {target_season} wk{target_week}")
 
 # FUNCTIONS
 def get_top_n(df, feature_cols, model, team_next_opp, n=10, min_games=3, max_weeks_stale=3):
@@ -58,7 +58,13 @@ def get_top_n(df, feature_cols, model, team_next_opp, n=10, min_games=3, max_wee
     latest['def_allowed_l4w'] = latest['def_allowed_l4w_upcoming'].fillna(latest['def_allowed_l4w'])
 
     latest['projection'] = model.predict(latest[feature_cols])
-    return latest[['player_name', 'projection', 'headshot_url', 'next_opponent']].sort_values('projection', ascending=False).head(n)
+    trade_cols = ['player_name', 'projection', 'headshot_url', 'next_opponent', 'prior_season_ppg', 'fantasy_points_ppr_std5', 'position', 'targets_ewma3', 'touches_ewma3', 'wopr_ewma3', 'receiving_yards_ewma3', 'rushing_yards_ewma3', 'passing_yards_ewma3', 'target_share_ewma3']
+    for col in trade_cols:
+        if col not in latest.columns:
+            latest[col] = 0
+        else:
+            latest[col] = latest[col].fillna(0)
+    return latest[trade_cols].sort_values('projection', ascending=False).head(n)
 
 # FEATURE ENGINEERING ------------------------------------------------------------------
 # Weighted Opportunities
@@ -127,10 +133,10 @@ te_model = XGBRegressor(n_estimators=200, max_depth=4, learning_rate=0.05)
 te_model.fit(te_clean_df[te_features], te_clean_df['fantasy_points_ppr'])
 
 # OUTPUTS -----------------------------------------------------
-top_wr = get_top_n(wr_clean_df, wr_features, wr_model, team_next_opp, n=20)
-top_rb = get_top_n(rb_clean_df, rb_features, rb_model, team_next_opp, n=20)
-top_qb = get_top_n(qb_clean_df, qb_features, qb_model, team_next_opp, n=12)
-top_te = get_top_n(te_clean_df, te_features, te_model, team_next_opp, n=12)
+top_wr = get_top_n(wr_clean_df, wr_features, wr_model, team_next_opp, n=40)
+top_rb = get_top_n(rb_clean_df, rb_features, rb_model, team_next_opp, n=40)
+top_qb = get_top_n(qb_clean_df, qb_features, qb_model, team_next_opp, n=20)
+top_te = get_top_n(te_clean_df, te_features, te_model, team_next_opp, n=20)
 
 output = {
     "generated_at": pd.Timestamp.utcnow().isoformat(),

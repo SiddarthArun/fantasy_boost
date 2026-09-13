@@ -103,9 +103,20 @@
                         Fantasy <span class="text-green-400 font-light">BOOST</span>
                     </h1>
                 </div>
-                <div class="apple-glass px-4 py-2.5 rounded-2xl text-right">
-                    <p class="text-[10px] uppercase tracking-[0.2em] text-[#86868b] font-medium mb-0.5 text-center">Updated</p>
-                    <p id="updated-date" class="text-xs sm:text-sm text-[#f5f5f7] font-medium tabular text-center">&mdash;</p>
+                <div class="flex flex-wrap items-center gap-4">
+                    <!-- Mode Switcher (Always Visible) -->
+                    <div class="flex items-center gap-2 apple-glass p-1.5 rounded-2xl">
+                        <button type="button" id="mode-rankings-btn" class="apple-pill active px-4 py-2 rounded-xl font-semibold text-xs tracking-wide inline-flex items-center gap-2" onclick="setAppMode('rankings')">
+                            Rankings
+                        </button>
+                        <button type="button" id="mode-calculator-btn" class="apple-pill px-4 py-2 rounded-xl font-semibold text-xs tracking-wide inline-flex items-center gap-2 text-[#86868b]" onclick="setAppMode('calculator')">
+                            Trade Calculator
+                        </button>
+                    </div>
+                    <div class="apple-glass px-4 py-2.5 rounded-2xl text-right">
+                        <p class="text-[10px] uppercase tracking-[0.2em] text-[#86868b] font-medium mb-0.5 text-center">Updated</p>
+                        <p id="updated-date" class="text-xs sm:text-sm text-[#f5f5f7] font-medium tabular text-center">&mdash;</p>
+                    </div>
                 </div>
             </div>
 
@@ -115,15 +126,92 @@
             </nav>
         </header>
 
-        <!-- Position Title Bar -->
-        <div class="flex items-center gap-3.5 mb-8">
-            <span id="pos-badge" class="inline-flex items-center justify-center font-bold text-xs tracking-wider px-3 py-1.5 rounded-xl apple-glass text-green-400"></span>
-            <h2 id="pos-title" class="font-semibold text-2xl sm:text-3xl text-white tracking-tight"></h2>
+        <!-- Rankings View -->
+        <div id="rankings-view">
+            <!-- Position Title Bar -->
+            <div class="flex items-center gap-3.5 mb-8">
+                <span id="pos-badge" class="inline-flex items-center justify-center font-bold text-xs tracking-wider px-3 py-1.5 rounded-xl apple-glass text-green-400"></span>
+                <h2 id="pos-title" class="font-semibold text-2xl sm:text-3xl text-white tracking-tight"></h2>
+            </div>
+
+            <!-- Grid of iOS-style Widget Cards -->
+            <div id="content" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Cards injected here -->
+            </div>
         </div>
 
-        <!-- Grid of iOS-style Widget Cards -->
-        <div id="content" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <!-- Cards injected here -->
+        <!-- Trade Calculator View -->
+        <div id="trade-calculator-view" class="hidden space-y-8">
+            <!-- Trade Verdict Banner / Summary -->
+            <div class="apple-glass rounded-3xl p-6 sm:p-8 relative overflow-hidden">
+                <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                    <div>
+                        <p class="text-xs uppercase tracking-[0.25em] text-green-400 font-semibold mb-1">Trade Evaluation Engine</p>
+                        <h3 id="trade-verdict-title" class="text-2xl sm:text-3xl font-bold text-white tracking-tight">Select players to evaluate trade</h3>
+                        <p id="trade-verdict-sub" class="text-sm text-[#86868b] mt-1">Compare projected weekly output, baseline form, and risk volatility.</p>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <div class="apple-glass px-6 py-4 rounded-2xl text-center">
+                            <p class="text-[10px] uppercase tracking-[0.2em] text-[#86868b] font-medium mb-1">Side A Total</p>
+                            <p id="side-a-total-pts" class="text-2xl sm:text-3xl font-bold text-white tabular">0.0</p>
+                        </div>
+                        <div class="text-xl font-bold text-green-400">vs</div>
+                        <div class="apple-glass px-6 py-4 rounded-2xl text-center">
+                            <p class="text-[10px] uppercase tracking-[0.2em] text-[#86868b] font-medium mb-1">Side B Total</p>
+                            <p id="side-b-total-pts" class="text-2xl sm:text-3xl font-bold text-white tabular">0.0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Two Columns: Side A (Give) vs Side B (Receive) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Side A: You Give -->
+                <div class="apple-glass rounded-3xl p-6 sm:p-8 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <h4 class="font-bold text-xl text-white tracking-tight">Side A (Players Giving)</h4>
+                            <span id="side-a-count" class="text-xs font-semibold px-2.5 py-1 rounded-xl bg-white/5 border border-white/10 text-green-400">0 players</span>
+                        </div>
+                        <!-- Player Search/Select -->
+                        <div class="relative mb-6">
+                            <input type="text" id="search-side-a" placeholder="Search player to add..." class="w-full bg-neutral-900/80 border border-white/10 rounded-2xl px-4 py-3 text-sm text-white placeholder-neutral-500 focus:outline-none focus:border-green-400 transition-colors" oninput="filterPlayers('a', this.value)" onfocus="filterPlayers('a', this.value)">
+                            <div id="dropdown-side-a" class="absolute z-20 left-0 right-0 mt-2 max-h-60 overflow-y-auto apple-glass rounded-2xl hidden shadow-2xl divide-y divide-white/5"></div>
+                        </div>
+                        <!-- Selected Players List A -->
+                        <div id="list-side-a" class="space-y-3 min-h-[120px]">
+                            <p class="text-xs text-[#86868b] text-center py-8">No players added to Side A yet.</p>
+                        </div>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-white/10 flex items-center justify-between text-xs text-[#86868b]">
+                        <span>Baseline PPG: <strong id="side-a-baseline" class="text-white tabular">0.0</strong></span>
+                        <span>Volatility Risk: <strong id="side-a-vol" class="text-white tabular">0.0</strong></span>
+                    </div>
+                </div>
+
+                <!-- Side B: You Receive -->
+                <div class="apple-glass rounded-3xl p-6 sm:p-8 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <h4 class="font-bold text-xl text-white tracking-tight">Side B (Players Receiving)</h4>
+                            <span id="side-b-count" class="text-xs font-semibold px-2.5 py-1 rounded-xl bg-white/5 border border-white/10 text-green-400">0 players</span>
+                        </div>
+                        <!-- Player Search/Select -->
+                        <div class="relative mb-6">
+                            <input type="text" id="search-side-b" placeholder="Search player to add..." class="w-full bg-neutral-900/80 border border-white/10 rounded-2xl px-4 py-3 text-sm text-white placeholder-neutral-500 focus:outline-none focus:border-green-400 transition-colors" oninput="filterPlayers('b', this.value)" onfocus="filterPlayers('b', this.value)">
+                            <div id="dropdown-side-b" class="absolute z-20 left-0 right-0 mt-2 max-h-60 overflow-y-auto apple-glass rounded-2xl hidden shadow-2xl divide-y divide-white/5"></div>
+                        </div>
+                        <!-- Selected Players List B -->
+                        <div id="list-side-b" class="space-y-3 min-h-[120px]">
+                            <p class="text-xs text-[#86868b] text-center py-8">No players added to Side B yet.</p>
+                        </div>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-white/10 flex items-center justify-between text-xs text-[#86868b]">
+                        <span>Baseline PPG: <strong id="side-b-baseline" class="text-white tabular">0.0</strong></span>
+                        <span>Volatility Risk: <strong id="side-b-vol" class="text-white tabular">0.0</strong></span>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- About Section Accordion -->
