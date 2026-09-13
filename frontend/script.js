@@ -446,8 +446,8 @@ function updateTradeEvaluation() {
     document.getElementById('side-a-vol').textContent = volA.toFixed(1) + ' std';
     document.getElementById('side-b-vol').textContent = volB.toFixed(1) + ' std';
 
-    // Verdict based on Advanced True Trade Value
-    const diff = valB - valA; // Side B minus Side A
+    // Verdict based on Advanced True Trade Value (You Receive vs You Give)
+    const diff = valB - valA; // Net gain for you (Receive minus Give)
     const verdictTitle = document.getElementById('trade-verdict-title');
     const verdictSub = document.getElementById('trade-verdict-sub');
 
@@ -456,13 +456,13 @@ function updateTradeEvaluation() {
         verdictSub.textContent = 'Compare volume, yardage, career pedigree, and package tier value.';
     } else if (Math.abs(diff) <= 1.2) {
         verdictTitle.textContent = '🤝 Fair & Balanced Trade';
-        verdictSub.textContent = `True trade value differential is even (±${Math.abs(diff).toFixed(1)} pts).`;
+        verdictSub.textContent = `True trade value is even (±${Math.abs(diff).toFixed(1)} pts).`;
     } else if (diff > 0) {
-        verdictTitle.textContent = `📈 Side B Wins Trade (+${diff.toFixed(1)} value)`;
-        verdictSub.textContent = 'Side B acquires superior overall volume, pedigree, and package depth.';
+        verdictTitle.textContent = `📈 Accept Trade — You Win (+${diff.toFixed(1)} Value)`;
+        verdictSub.textContent = 'You are receiving superior overall player value, volume, and pedigree in return.';
     } else {
-        verdictTitle.textContent = `📉 Side A Wins Trade (+${Math.abs(diff).toFixed(1)} value)`;
-        verdictSub.textContent = 'Side A retains superior overall volume, pedigree, and package depth.';
+        verdictTitle.textContent = `📉 Decline Trade — You Lose (-${Math.abs(diff).toFixed(1)} Value)`;
+        verdictSub.textContent = 'You are giving up more value than you receive in return.';
     }
 }
 
