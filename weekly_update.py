@@ -2,6 +2,11 @@ import nflreadpy as nfl  # or nflreadpy, whatever you're using
 import pandas as pd
 import json
 from xgboost import XGBRegressor
+import io
+import base64
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
 
 try:
     df = nfl.load_player_stats(seasons=[2023,2024,2025,2026], summary_level='week').to_pandas()
@@ -135,11 +140,7 @@ qb_model.fit(qb_clean_df[qb_features], qb_clean_df['fantasy_points_ppr'])
 te_model = XGBRegressor(n_estimators=200, max_depth=4, learning_rate=0.05)
 te_model.fit(te_clean_df[te_features], te_clean_df['fantasy_points_ppr'])
 
-import io
-import base64
-import matplotlib
-matplotlib.use('Agg')
-import matplotlib.pyplot as plt
+
 
 def generate_trajectory_plot(df, position, metrics_dict, n_players=40):
     plot_season = 2026
