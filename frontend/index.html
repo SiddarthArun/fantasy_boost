@@ -112,6 +112,9 @@
                         <button type="button" id="mode-calculator-btn" class="apple-pill px-4 py-2 rounded-xl font-semibold text-xs tracking-wide inline-flex items-center gap-2 text-[#86868b]" onclick="setAppMode('calculator')">
                             Trade Calculator
                         </button>
+                        <button type="button" id="mode-graphs-btn" class="apple-pill px-4 py-2 rounded-xl font-semibold text-xs tracking-wide inline-flex items-center gap-2 text-[#86868b]" onclick="setAppMode('graphs')">
+                            Season Graphs
+                        </button>
                     </div>
                     <div class="apple-glass px-4 py-2.5 rounded-2xl text-right">
                         <p class="text-[10px] uppercase tracking-[0.2em] text-[#86868b] font-medium mb-0.5 text-center">Updated</p>
@@ -211,6 +214,25 @@
                         <span>Volatility Risk: <strong id="side-b-vol" class="text-white tabular">0.0</strong></span>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <!-- Season Graphs View -->
+        <div id="season-graphs-view" class="hidden space-y-6">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+                <div>
+                    <p class="text-xs uppercase tracking-[0.25em] text-green-400 font-semibold mb-1">Weekly Volume & Trajectories</p>
+                    <h3 class="text-2xl sm:text-3xl font-bold text-white tracking-tight">Season-Long Trend Lines</h3>
+                </div>
+                <!-- Position Sub-Tabs for Graphs -->
+                <nav id="graph-position-tabs" class="flex items-center gap-2.5 flex-wrap" role="tablist" aria-label="Graph Position Navigation">
+                    <!-- Tabs injected here -->
+                </nav>
+            </div>
+
+            <!-- Graph Image Container -->
+            <div class="apple-glass rounded-3xl p-4 sm:p-6 text-center relative overflow-hidden">
+                <img id="graph-image" src="" alt="Season Trajectory Graph" class="w-full h-auto rounded-2xl mx-auto shadow-2xl border border-white/10" style="image-rendering: -webkit-optimize-contrast;">
             </div>
         </div>
 

@@ -199,32 +199,92 @@ let APP_MODE = 'rankings'; // 'rankings' or 'calculator'
 let sideAPlayers = [];
 let sideBPlayers = [];
 
+let ACTIVE_GRAPH_POSITION = 'wr';
+
 function setAppMode(mode) {
     if (mode === APP_MODE) return;
     APP_MODE = mode;
     const rankBtn = document.getElementById('mode-rankings-btn');
     const calcBtn = document.getElementById('mode-calculator-btn');
+    const graphsBtn = document.getElementById('mode-graphs-btn');
     const rankView = document.getElementById('rankings-view');
     const calcView = document.getElementById('trade-calculator-view');
+    const graphsView = document.getElementById('season-graphs-view');
     const posTabs = document.getElementById('position-tabs');
 
+    // Reset buttons
+    [rankBtn, calcBtn, graphsBtn].forEach(b => {
+        if (b) {
+            b.classList.remove('active');
+            b.classList.add('text-[#86868b]');
+        }
+    });
+
+    // Hide all views
+    [rankView, calcView, graphsView].forEach(v => {
+        if (v) v.classList.add('hidden');
+    });
+
+    if (posTabs) posTabs.style.display = 'none';
+
     if (mode === 'rankings') {
-        rankBtn.classList.add('active');
-        rankBtn.classList.remove('text-[#86868b]');
-        calcBtn.classList.remove('active');
-        calcBtn.classList.add('text-[#86868b]');
-        rankView.classList.remove('hidden');
-        calcView.classList.add('hidden');
+        if (rankBtn) {
+            rankBtn.classList.add('active');
+            rankBtn.classList.remove('text-[#86868b]');
+        }
+        if (rankView) rankView.classList.remove('hidden');
         if (posTabs) posTabs.style.display = 'flex';
-    } else {
-        calcBtn.classList.add('active');
-        calcBtn.classList.remove('text-[#86868b]');
-        rankBtn.classList.remove('active');
-        rankBtn.classList.add('text-[#86868b]');
-        calcView.classList.remove('hidden');
-        rankView.classList.add('hidden');
-        if (posTabs) posTabs.style.display = 'none';
+    } else if (mode === 'calculator') {
+        if (calcBtn) {
+            calcBtn.classList.add('active');
+            calcBtn.classList.remove('text-[#86868b]');
+        }
+        if (calcView) calcView.classList.remove('hidden');
         updateTradeEvaluation();
+    } else if (mode === 'graphs') {
+        if (graphsBtn) {
+            graphsBtn.classList.add('active');
+            graphsBtn.classList.remove('text-[#86868b]');
+        }
+        if (graphsView) graphsView.classList.remove('hidden');
+        renderGraphTabs();
+        renderActiveGraph();
+    }
+}
+
+function renderGraphTabs() {
+    const tabsEl = document.getElementById('graph-position-tabs');
+    if (!tabsEl) return;
+    tabsEl.innerHTML = POSITION_ORDER.map(key => {
+        const theme = POSITION_THEMES[key];
+        const isActive = key === ACTIVE_GRAPH_POSITION;
+        return `
+            <button
+                type="button"
+                role="tab"
+                aria-selected="${isActive}"
+                class="apple-pill px-4 py-2 rounded-xl font-semibold text-xs tracking-wide inline-flex items-center gap-2 ${isActive ? 'active' : 'text-[#86868b]'}"
+                onclick="setActiveGraphPosition('${key}')">
+                <span class="w-2 h-2 rounded-full" style="background: ${theme.accent}; box-shadow: 0 0 8px ${theme.accent};"></span>
+                ${theme.label}
+            </button>
+        `;
+    }).join('');
+}
+
+function setActiveGraphPosition(key) {
+    if (!POSITION_THEMES[key] || key === ACTIVE_GRAPH_POSITION) return;
+    ACTIVE_GRAPH_POSITION = key;
+    renderGraphTabs();
+    renderActiveGraph();
+}
+
+function renderActiveGraph() {
+    const imgEl = document.getElementById('graph-image');
+    if (!imgEl || !DATA || !DATA.plots) return;
+    const plotDataUrl = DATA.plots[ACTIVE_GRAPH_POSITION];
+    if (plotDataUrl) {
+        imgEl.src = plotDataUrl;
     }
 }
 
@@ -509,5 +569,6 @@ window.setAppMode = setAppMode;
 window.filterPlayers = filterPlayers;
 window.addPlayerToSide = addPlayerToSide;
 window.removePlayerFromSide = removePlayerFromSide;
+window.setActiveGraphPosition = setActiveGraphPosition;
 
 fetchAndRender();
